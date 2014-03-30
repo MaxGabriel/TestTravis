@@ -21,6 +21,18 @@
 		50D6F7D318E7CC4800BAF9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6F7B518E7CC4800BAF9B0 /* UIKit.framework */; };
 		50D6F7DB18E7CC4800BAF9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D6F7D918E7CC4800BAF9B0 /* InfoPlist.strings */; };
 		50D6F7DD18E7CC4800BAF9B0 /* TestTravisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6F7DC18E7CC4800BAF9B0 /* TestTravisTests.m */; };
+		50D6F7E818E7CC5C00BAF9B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6F7C718E7CC4800BAF9B0 /* ViewController.m */; };
+		50D6F7E918E7CC5C00BAF9B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6F7C118E7CC4800BAF9B0 /* AppDelegate.m */; };
+		50D6F7EA18E7CC5C00BAF9B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6F7BD18E7CC4800BAF9B0 /* main.m */; };
+		50D6F7EC18E7CC5C00BAF9B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6F7B318E7CC4800BAF9B0 /* CoreGraphics.framework */; };
+		50D6F7ED18E7CC5C00BAF9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6F7B518E7CC4800BAF9B0 /* UIKit.framework */; };
+		50D6F7EE18E7CC5C00BAF9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6F7B118E7CC4800BAF9B0 /* Foundation.framework */; };
+		50D6F7F018E7CC5C00BAF9B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D6F7C918E7CC4800BAF9B0 /* Images.xcassets */; };
+		50D6F7F118E7CC5C00BAF9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D6F7BA18E7CC4800BAF9B0 /* InfoPlist.strings */; };
+		50D6F7F218E7CC5C00BAF9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D6F7C318E7CC4800BAF9B0 /* Main.storyboard */; };
+		50D6F80C18E7CD3B00BAF9B0 /* libSubliminal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6F80318E7CD1700BAF9B0 /* libSubliminal.a */; };
+		50D6F80E18E7CD5100BAF9B0 /* Integration Tests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 50D6F80D18E7CD5100BAF9B0 /* Integration Tests.xcconfig */; };
+		50D6F81018E7CDA500BAF9B0 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6F80F18E7CDA500BAF9B0 /* MyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +42,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 50D6F7AD18E7CC4800BAF9B0;
 			remoteInfo = TestTravis;
+		};
+		50D6F80218E7CD1700BAF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0695D8B16011515000B05D0;
+			remoteInfo = Subliminal;
+		};
+		50D6F80418E7CD1700BAF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0D240521683F7130031B67C;
+			remoteInfo = "Subliminal Unit Tests";
+		};
+		50D6F80618E7CD1700BAF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0AC809416BB299500C5D5C0;
+			remoteInfo = "Subliminal Integration Tests";
+		};
+		50D6F80818E7CD1700BAF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F02578891890FF7A0084A6DB;
+			remoteInfo = SLLogger;
+		};
+		50D6F80A18E7CD3800BAF9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0695D8A16011515000B05D0;
+			remoteInfo = Subliminal;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +100,10 @@
 		50D6F7D818E7CC4800BAF9B0 /* TestTravisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTravisTests-Info.plist"; sourceTree = "<group>"; };
 		50D6F7DA18E7CC4800BAF9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50D6F7DC18E7CC4800BAF9B0 /* TestTravisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTravisTests.m; sourceTree = "<group>"; };
+		50D6F7F618E7CC5C00BAF9B0 /* TestTravis copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTravis copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Subliminal.xcodeproj; path = Subliminal/Subliminal.xcodeproj; sourceTree = "<group>"; };
+		50D6F80D18E7CD5100BAF9B0 /* Integration Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Integration Tests.xcconfig"; path = "Subliminal/Supporting Files/Xcode/Integration Tests.xcconfig"; sourceTree = "<group>"; };
+		50D6F80F18E7CDA500BAF9B0 /* MyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +127,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50D6F7EB18E7CC5C00BAF9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6F80C18E7CD3B00BAF9B0 /* libSubliminal.a in Frameworks */,
+				50D6F7EC18E7CC5C00BAF9B0 /* CoreGraphics.framework in Frameworks */,
+				50D6F7ED18E7CC5C00BAF9B0 /* UIKit.framework in Frameworks */,
+				50D6F7EE18E7CC5C00BAF9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		50D6F7A518E7CC4800BAF9B0 = {
 			isa = PBXGroup;
 			children = (
+				50D6F7F818E7CCA800BAF9B0 /* Integration Tests */,
 				50D6F7B718E7CC4800BAF9B0 /* TestTravis */,
 				50D6F7D618E7CC4800BAF9B0 /* TestTravisTests */,
 				50D6F7B018E7CC4800BAF9B0 /* Frameworks */,
@@ -94,6 +157,7 @@
 			children = (
 				50D6F7AE18E7CC4800BAF9B0 /* TestTravis.app */,
 				50D6F7CF18E7CC4800BAF9B0 /* TestTravisTests.xctest */,
+				50D6F7F618E7CC5C00BAF9B0 /* TestTravis copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +216,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50D6F7F818E7CCA800BAF9B0 /* Integration Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50D6F80D18E7CD5100BAF9B0 /* Integration Tests.xcconfig */,
+				50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */,
+				50D6F80F18E7CDA500BAF9B0 /* MyTest.m */,
+			);
+			path = "Integration Tests";
+			sourceTree = "<group>";
+		};
+		50D6F7FA18E7CD1600BAF9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D6F80318E7CD1700BAF9B0 /* libSubliminal.a */,
+				50D6F80518E7CD1700BAF9B0 /* Subliminal (Unit Tests).octest */,
+				50D6F80718E7CD1700BAF9B0 /* Subliminal (Integration Tests).app */,
+				50D6F80918E7CD1700BAF9B0 /* SLLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +275,24 @@
 			productReference = 50D6F7CF18E7CC4800BAF9B0 /* TestTravisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		50D6F7E618E7CC5C00BAF9B0 /* Integration Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D6F7F318E7CC5C00BAF9B0 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
+			buildPhases = (
+				50D6F7E718E7CC5C00BAF9B0 /* Sources */,
+				50D6F7EB18E7CC5C00BAF9B0 /* Frameworks */,
+				50D6F7EF18E7CC5C00BAF9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D6F80B18E7CD3800BAF9B0 /* PBXTargetDependency */,
+			);
+			name = "Integration Tests";
+			productName = TestTravis;
+			productReference = 50D6F7F618E7CC5C00BAF9B0 /* TestTravis copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,13 +318,51 @@
 			mainGroup = 50D6F7A518E7CC4800BAF9B0;
 			productRefGroup = 50D6F7AF18E7CC4800BAF9B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 50D6F7FA18E7CD1600BAF9B0 /* Products */;
+					ProjectRef = 50D6F7F918E7CD1600BAF9B0 /* Subliminal.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				50D6F7AD18E7CC4800BAF9B0 /* TestTravis */,
 				50D6F7CE18E7CC4800BAF9B0 /* TestTravisTests */,
+				50D6F7E618E7CC5C00BAF9B0 /* Integration Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		50D6F80318E7CD1700BAF9B0 /* libSubliminal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSubliminal.a;
+			remoteRef = 50D6F80218E7CD1700BAF9B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D6F80518E7CD1700BAF9B0 /* Subliminal (Unit Tests).octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Subliminal (Unit Tests).octest";
+			remoteRef = 50D6F80418E7CD1700BAF9B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D6F80718E7CD1700BAF9B0 /* Subliminal (Integration Tests).app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Subliminal (Integration Tests).app";
+			remoteRef = 50D6F80618E7CD1700BAF9B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D6F80918E7CD1700BAF9B0 /* SLLogger.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SLLogger.framework;
+			remoteRef = 50D6F80818E7CD1700BAF9B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		50D6F7AC18E7CC4800BAF9B0 /* Resources */ = {
@@ -239,6 +380,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D6F7DB18E7CC4800BAF9B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D6F7EF18E7CC5C00BAF9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6F80E18E7CD5100BAF9B0 /* Integration Tests.xcconfig in Resources */,
+				50D6F7F018E7CC5C00BAF9B0 /* Images.xcassets in Resources */,
+				50D6F7F118E7CC5C00BAF9B0 /* InfoPlist.strings in Resources */,
+				50D6F7F218E7CC5C00BAF9B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +415,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50D6F7E718E7CC5C00BAF9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6F7E818E7CC5C00BAF9B0 /* ViewController.m in Sources */,
+				50D6F81018E7CDA500BAF9B0 /* MyTest.m in Sources */,
+				50D6F7E918E7CC5C00BAF9B0 /* AppDelegate.m in Sources */,
+				50D6F7EA18E7CC5C00BAF9B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,6 +433,11 @@
 			isa = PBXTargetDependency;
 			target = 50D6F7AD18E7CC4800BAF9B0 /* TestTravis */;
 			targetProxy = 50D6F7D418E7CC4800BAF9B0 /* PBXContainerItemProxy */;
+		};
+		50D6F80B18E7CD3800BAF9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Subliminal;
+			targetProxy = 50D6F80A18E7CD3800BAF9B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +605,34 @@
 			};
 			name = Release;
 		};
+		50D6F7F418E7CC5C00BAF9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D6F80D18E7CD5100BAF9B0 /* Integration Tests.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTravis/TestTravis-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TestTravis/TestTravis-Info.plist";
+				PRODUCT_NAME = "TestTravis copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50D6F7F518E7CC5C00BAF9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D6F80D18E7CD5100BAF9B0 /* Integration Tests.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTravis/TestTravis-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TestTravis/TestTravis-Info.plist";
+				PRODUCT_NAME = "TestTravis copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +660,15 @@
 				50D6F7E518E7CC4800BAF9B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		50D6F7F318E7CC5C00BAF9B0 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D6F7F418E7CC5C00BAF9B0 /* Debug */,
+				50D6F7F518E7CC5C00BAF9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

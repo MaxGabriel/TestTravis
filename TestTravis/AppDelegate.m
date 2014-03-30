@@ -8,11 +8,19 @@
 
 #import "AppDelegate.h"
 
+#if INTEGRATION_TESTING
+#import <Subliminal/Subliminal.h>
+#endif
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+#if INTEGRATION_TESTING
+    [[SLTestController sharedTestController] runTests:[SLTest allTests] withCompletionBlock:nil];
+#endif
     return YES;
 }
 							

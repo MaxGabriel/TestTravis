@@ -9,7 +9,7 @@ env:
         - OUTPUT_DIR="output"
 
 before_install:
-    - git submodule update --init --recursive
+    # Travis will automatically install git submodules
     - rake install --rakefile Integration\ Tests/Subliminal/Rakefile DOCS=no
 
 script: >

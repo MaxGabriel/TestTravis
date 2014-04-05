@@ -10,6 +10,7 @@ env:
 
 before_install:
     # Travis will automatically install git submodules
+    - echo "travis variable = $TRAVIS"
     - rake install --rakefile Integration\ Tests/Subliminal/Rakefile DOCS=no
 
 script: >
